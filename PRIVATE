@@ -11,7 +11,7 @@ tool:Activate()
 
 local p = game.Players:GetPlayers()
 for i = 2, #p do local v = p[i].Character
-if v and v:FindFirstChild("Humanoid") and v.Humanoid.Health > 0 and v:FindFirstChild("HumanoidRootPart") and game.Players.LocalPlayer:DistanceFromCharacter(v.HumanoidRootPart.Position) <= 4 then
+if v and v:FindFirstChild("Humanoid") and v.Humanoid.Health > 0 and v:FindFirstChild("HumanoidRootPart") and game.Players.LocalPlayer:DistanceFromCharacter(v.HumanoidRootPart.Position) <= 4.2 then
 
 for i,v in next, v:GetChildren() do
 if v:IsA("BasePart") then
